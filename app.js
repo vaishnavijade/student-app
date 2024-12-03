@@ -4,7 +4,7 @@ const cors=require("cors");
 const app = express(); 
  
 // Connect to MongoDB 
-mongoose.connect("mongodb+srv://vaish:vaish@cluster0.2umavey.mongodb.net/studentsDb", { 
+mongoose.connect("mongodb+srv://.....", { //add you uri
     useNewUrlParser: true, 
     useUnifiedTopology: true, 
   }) 
